@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26b3a96d-23e1-491c-9e23-256d89573237" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Proxy/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/Client2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/Proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/Server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/mess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/multiconn_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/new_regeorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TONGDAScan/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TONGDAScan/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TONGDAScan/luffy1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crypto/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fofa/Pen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fofa/asy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fofa/fofa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../king/zhakan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMMITMENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/activate_sp_oacreate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/configure_openrowset.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/configure_xp_cmdshell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/create_new_xp_cmdshell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/disable_xp_cmdshell_2000.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/dns_request.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/enable_xp_cmdshell_2000.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mssqlserver/run_statement_as_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mysql/dns_request.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/mysql/write_file_limit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/oracle/dns_request.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/oracle/read_file_export_extension.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/procs/postgresql/dns_request.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/backdoors/backdoor.asp_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/backdoors/backdoor.aspx_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/backdoors/backdoor.jsp_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/backdoors/backdoor.php_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/stagers/stager.asp_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/stagers/stager.aspx_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/stagers/stager.jsp_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/shell/stagers/stager.php_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/common-columns.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/common-files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/common-outputs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/common-tables.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/keywords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/smalldict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/user-agents.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/txt/wordlist.tx_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/mysql/linux/32/lib_mysqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/mysql/linux/64/lib_mysqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/mysql/windows/32/lib_mysqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/mysql/windows/64/lib_mysqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/10/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/11/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/8.2/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/8.3/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/8.4/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.0/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.1/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.2/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.3/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.4/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.5/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/32/9.6/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/10/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/11/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/8.2/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/8.3/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/8.4/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.0/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.1/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.2/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.3/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.4/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.5/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/linux/64/9.6/lib_postgresqludf_sys.so_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/windows/32/8.2/lib_postgresqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/windows/32/8.3/lib_postgresqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/windows/32/8.4/lib_postgresqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/udf/postgresql/windows/32/9.0/lib_postgresqludf_sys.dll_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/generic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/mssql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/mysql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/oracle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/postgresql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/servlet-engine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/set-cookie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/sharepoint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/x-aspnet-version.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/banner/x-powered-by.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/boundaries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/errors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/boolean_blind.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/error_based.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/inline_query.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/stacked_queries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/time_blind.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/payloads/union_query.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/xml/queries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/THANKS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/THIRD-PARTY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-bg-BG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-de-GER.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-es-MX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-fa-IR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-fr-FR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-gr-GR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-hr-HR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-id-ID.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-it-IT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-ja-JP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-ko-KR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-pl-PL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-pt-BR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-ru-RUS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-tr-TR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-uk-UA.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/translations/README-zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/beep/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/beep/beep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/beep/beep.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/cloak/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/cloak/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/cloak/cloak.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/dbgtool/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/dbgtool/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/dbgtool/dbgtool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/icmpsh-m.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/icmpsh-m.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/icmpsh-s.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/icmpsh.exe_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/icmpsh/icmpsh_m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/runcmd.exe_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/runcmd.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/runcmd/runcmd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/runcmd/runcmd.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/runcmd/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/runcmd/src/runcmd/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shellcodeexec/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shellcodeexec/linux/shellcodeexec.x32_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shellcodeexec/linux/shellcodeexec.x64_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shellcodeexec/windows/shellcodeexec.x32.exe_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/autocompletion.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/blanks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/drei.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/duplicates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/junk.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/modernize.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/newlines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/postcommit-hook.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/precommit-hook.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/pycodestyle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/pydiatra.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/pyflakes.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/pypi.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/shutils/strip.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/vulnserver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extra/vulnserver/vulnserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/controller/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/controller/action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/controller/checks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/controller/controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/controller/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/bigarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/datatype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/dicts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/dump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/option.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/optiondict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/patch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/profiling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/readlineng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/replication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/revision.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/shell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/subprocessng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/target.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/threads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/unescaper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/core/wordlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/banner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/cmdline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/configfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/headers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/payloads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/parse/sitemap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/basicauthhandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/chunkedhandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/connect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/direct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/dns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/httpshandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/inject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/methodrequest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/pkihandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/rangehandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/redirecthandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/request/templates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/abstraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/icmpsh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/metasploit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/udf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/takeover/xp_cmdshell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/blind/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/blind/inference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/dns/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/dns/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/dns/use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/error/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/error/use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/union/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/union/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/techniques/union/use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/brute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/deps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/getch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/har.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/hashdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/httpd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/pivotdumptable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/purge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/safe2bin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/sgmllib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/sqlalchemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/versioncheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/xrange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/access/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/altibase/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cache/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cratedb/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/cubrid/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/db2/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/derby/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/extremedb/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/firebird/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/frontbase/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/h2/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/hsqldb/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/informix/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/maxdb/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mckoi/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mimersql/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/monetdb/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mssqlserver/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/mysql/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/oracle/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/postgresql/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/presto/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sqlite/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/sybase/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/dbms/vertica/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/custom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/databases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/entries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/enumeration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/fingerprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/takeover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/generic/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sqlmap.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sqlmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sqlmapapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/apostrophemask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/apostrophenullencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/appendnullbyte.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/base64encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/between.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/bluecoat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/chardoubleencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/charencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/charunicodeencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/charunicodeescape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/commalesslimit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/commalessmid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/commentbeforeparentheses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/concat2concatws.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/equaltolike.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/escapequotes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/greatest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/halfversionedmorekeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/hex2char.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/htmlencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/ifnull2casewhenisnull.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/ifnull2ifisnull.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/informationschemacomment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/least.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/lowercase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/luanginx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/modsecurityversioned.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/modsecurityzeroversioned.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/multiplespaces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/overlongutf8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/overlongutf8more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/percentage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/plus2concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/plus2fnconcat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/randomcase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/randomcomments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/sp_password.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2morecomment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2morehash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2mssqlblank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2mssqlhash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2mysqlblank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2mysqldash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2plus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/space2randomblank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/substring2leftright.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/symboliclogical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/unionalltounion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/unmagicquotes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/uppercase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/varnish.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/versionedkeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/versionedmorekeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tamper/xforwardedfor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/ansistrm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/ansistrm/ansistrm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/beautifulsoup/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/beautifulsoup/beautifulsoup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/bottle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/bottle/bottle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/clientform/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/clientform/clientform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/ansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/ansitowin32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/initialise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/colorama/winterm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/fcrypt/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/fcrypt/fcrypt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/gprof2dot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/gprof2dot/gprof2dot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/identywaf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/identywaf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/identywaf/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/identywaf/identYwaf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/keepalive/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/keepalive/keepalive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/magic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/magic/magic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/multipart/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/multipart/multipartpost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/odict/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/odict/ordereddict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/prettyprint/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/prettyprint/prettyprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/pydes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/pydes/pyDes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/six/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/socks/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/socks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/socks/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/termcolor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/termcolor/termcolor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/wininetpton/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/wininetpton/win_inet_pton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/xdot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/xdot/xdot.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1i0KFQAfujpc2pU5LQMkCafxWAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/templates" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/templates" />
+      <recent name="$PROJECT_DIR$/front/static" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spacex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Spacex" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Spacex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Spacex" />
+      <item itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26b3a96d-23e1-491c-9e23-256d89573237" name="Default Changelist" comment="" />
+      <created>1601038964343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601038964343</updated>
+      <workItem from="1601038990392" duration="1482000" />
+      <workItem from="1601040672329" duration="165000" />
+      <workItem from="1601040850001" duration="229000" />
+      <workItem from="1601041106549" duration="76000" />
+      <workItem from="1601041186972" duration="1656000" />
+      <workItem from="1601082616598" duration="1386000" />
+      <workItem from="1601092682900" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="300" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601082642943">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="300" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601082642943" />
+    <state width="1628" height="281" key="GridCell.Tab.0.bottom" timestamp="1601088735054">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601088735054" />
+    <state width="1557" height="267" key="GridCell.Tab.0.bottom/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609695" />
+    <state width="1628" height="281" key="GridCell.Tab.0.center" timestamp="1601088735053">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601088735053" />
+    <state width="1557" height="267" key="GridCell.Tab.0.center/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609694" />
+    <state width="1628" height="281" key="GridCell.Tab.0.left" timestamp="1601088735053">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601088735053" />
+    <state width="1557" height="267" key="GridCell.Tab.0.left/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609693" />
+    <state width="1628" height="281" key="GridCell.Tab.0.right" timestamp="1601088735054">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601088735054" />
+    <state width="1557" height="267" key="GridCell.Tab.0.right/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609694" />
+    <state x="269" y="76" key="SettingsEditor" timestamp="1601092697939">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="269" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601092697939" />
+    <state x="496" y="249" width="759" height="574" key="find.popup" timestamp="1601039514194">
+      <screen x="71" y="23" width="1609" height="1027" />
+    </state>
+    <state x="496" y="249" width="759" height="574" key="find.popup/71.23.1609.1027@71.23.1609.1027" timestamp="1601039514194" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spacex$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601082844220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
