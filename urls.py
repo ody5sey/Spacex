@@ -20,6 +20,6 @@ from backend import backend_url
 from front import front_urls
 
 urlpatterns = [
-    path('', include(front_urls), name="front"),
-    path('back', include(backend_url), name="backend"),
+    path('', include(front_urls)),
+    path('back/', include(backend_url)),
 ]

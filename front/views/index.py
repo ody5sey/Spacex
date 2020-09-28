@@ -1,5 +1,10 @@
 from django.http import HttpResponse
+from django.views.generic import View
 
 
-def index(request):
-    return HttpResponse("shadow")
+class LoginView(View):
+
+    @staticmethod
+    def get(request):
+        # <view logic>
+        return HttpResponse('result')

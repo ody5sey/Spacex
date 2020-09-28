@@ -1,8 +1,7 @@
-from front.views.index import index
+from front.views.index import LoginView
 
 from django.urls import path
 
 urlpatterns = [
-    path('index/', index),
-    #    path('admin/', admin.site.urls),
+    path('', LoginView.as_view()),
 ]
