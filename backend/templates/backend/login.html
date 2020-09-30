@@ -316,7 +316,7 @@
 
                 <div id="validatePanel" class="item" style="width: 137px;">
                     <input type="text" name="captcha" placeholder="请输入验证码" maxlength="4">
-                    <img id="refreshCaptcha" class="validateImg" src="{% url 'captcha' %}" onclick="replaceimg()">
+                    <img id="refreshCaptcha" class="validateImg" src="{% url 'captcha' %}" onclick="replace_img()">
 
                 </div>
 
@@ -332,7 +332,7 @@
 <script src="{% static 'backend/lib/layui-v2.5.5/layui.js' %}" charset="utf-8"></script>
 <script>
     layui.use(['form', 'jquery'], function (message) {
-        var $ = layui.jquery,
+        const $ = layui.jquery,
             form = layui.form,
             layer = layui.layer;
 
@@ -392,7 +392,7 @@
         });
     });
 
-    function replaceimg() {
+    function replace_img() {
         const img = document.getElementById("refreshCaptcha");
         img.src = "{% url 'captcha' %}?" + Math.random();
 

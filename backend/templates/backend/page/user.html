@@ -85,7 +85,7 @@
                 {type: "checkbox", width: 50},
                 {field: 'id', width: 80, title: 'ID', sort: true},
                 {field: 'username', width: 80, title: '用户名'},
-                {field: 'sex', width: 80, title: '性别', sort: true},
+                {field: 'sex', width: 80, title: '性别', sort: false},
                 {field: 'super', width: 100, title: '超级用户'},
                 {field: 'create', title: '创建时间', minWidth: 150},
                 {field: 'experience', width: 80, title: '积分', sort: true},
@@ -139,8 +139,33 @@
                 });
             } else if (obj.event === 'delete') {  // 监听删除操作
                 const checkStatus = table.checkStatus('currentTableId')
-                    , data = checkStatus.data;
-                layer.alert(JSON.stringify(data));
+                const data = checkStatus.data;
+                {#layer.alert(JSON.stringify(data));#}
+                const arr = [];
+                for (let i = 0, len = data.length; i < len; i++) {
+                    arr.push(data[i].uid)
+                }
+
+                const token = '{{csrf_token}}';
+
+                const _data = {"id": arr.join(","), "action": "batch"}
+
+                $.ajax({
+                    url: "{% url 'user' %}",
+                    data: _data,
+                    type: 'post',
+                    dataType: 'json',
+                    headers: {"X-CSRFToken": token},
+                    success: function (data) {
+                        if (data.status === 200) {
+                            window.location.reload();
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+
+
             }
         });
 
@@ -172,7 +197,7 @@
                     {#layer.close(index);#}
                     const token = '{{csrf_token}}';
 
-                    const _data = {"id": obj.data.uid}
+                    const _data = {"id": obj.data.uid, "action": "each"}
 
                     $.ajax({
                         url: "{% url 'user' %}",

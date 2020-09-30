@@ -14,7 +14,7 @@ class IndexAPIView(LoginRequiredMixin, View):
                   'logoInfo': {'title': '后台管理', 'image': '/static/backend/images/logo.png', 'href': ''},
                   'menuInfo': [
                       {'title': '常规管理', 'icon': 'fa fa-address-book', 'href': '', 'target': '_self', 'child': [
-                          {'title': '主页模板', 'href': '', 'icon': 'fa fa-home', 'target': '_self', 'child': [
+                          {'title': '主页设置', 'href': '', 'icon': 'fa fa-home', 'target': '_self', 'child': [
                               {'title': '欢迎', 'href': reverse("welcome"), 'icon': 'fa fa-tachometer',
                                'target': '_self'},
                               {'title': '用户管理', 'href': reverse('user'), 'icon': 'fa fa-tachometer',

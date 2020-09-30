@@ -4,7 +4,6 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.clickjacking import xframe_options_exempt
 
 from librarys.mixin.permission import LoginRequiredMixin
-from backend.models.users import Users
 
 
 class WelcomeView(LoginRequiredMixin, View):

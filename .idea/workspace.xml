@@ -17,20 +17,17 @@
       <change beforePath="$PROJECT_DIR$/../Proxy/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Proxy/socks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/backend/lib/layui-v2.5.5/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/static/backend/lib/layui-v2.5.5/layui.all.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/templates/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/backend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/templates/backend/page/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/backend/page/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/backend/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/backend/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/backend/page/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/backend/page/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/backend/page/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/backend/page/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/apis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/welcome.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/welcome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TONGDAScan/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TONGDAScan/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TONGDAScan/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TONGDAScan/info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TONGDAScan/luffy1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TONGDAScan/luffy1.txt" afterDir="false" />
@@ -639,8 +636,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -760,7 +757,7 @@
       <workItem from="1601248972218" duration="5409000" />
       <workItem from="1601271339008" duration="1089000" />
       <workItem from="1601296024632" duration="12227000" />
-      <workItem from="1601361779948" duration="2510000" />
+      <workItem from="1601361779948" duration="10175000" />
     </task>
     <servers />
   </component>
@@ -776,34 +773,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="606" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1601357928811" />
-    <state width="1628" height="281" key="GridCell.Tab.0.bottom" timestamp="1601428974554">
+    <state width="1628" height="365" key="GridCell.Tab.0.bottom" timestamp="1601457257802">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601428974554" />
+    <state width="1628" height="365" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601457257802" />
     <state width="1557" height="267" key="GridCell.Tab.0.bottom/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609695" />
-    <state width="1628" height="281" key="GridCell.Tab.0.center" timestamp="1601428974553">
+    <state width="1628" height="365" key="GridCell.Tab.0.center" timestamp="1601457257801">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601428974553" />
+    <state width="1628" height="365" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601457257801" />
     <state width="1557" height="267" key="GridCell.Tab.0.center/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609694" />
-    <state width="1628" height="281" key="GridCell.Tab.0.left" timestamp="1601428974553">
+    <state width="1628" height="365" key="GridCell.Tab.0.left" timestamp="1601457257800">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601428974553" />
+    <state width="1628" height="365" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601457257800" />
     <state width="1557" height="267" key="GridCell.Tab.0.left/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609693" />
-    <state width="1628" height="281" key="GridCell.Tab.0.right" timestamp="1601428974554">
+    <state width="1628" height="365" key="GridCell.Tab.0.right" timestamp="1601457257801">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601428974554" />
+    <state width="1628" height="365" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601457257801" />
     <state width="1557" height="267" key="GridCell.Tab.0.right/71.23.1609.1027@71.23.1609.1027" timestamp="1601040609694" />
-    <state x="269" y="76" key="SettingsEditor" timestamp="1601428481083">
+    <state x="269" y="76" key="SettingsEditor" timestamp="1601431848100">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="269" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601428481083" />
-    <state x="444" y="231" width="898" height="587" key="find.popup" timestamp="1601263346143">
+    <state x="269" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601431848100" />
+    <state x="444" y="231" width="898" height="587" key="find.popup" timestamp="1601436769282">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="444" y="231" width="898" height="587" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601263346143" />
+    <state x="444" y="231" width="898" height="587" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601436769282" />
     <state x="496" y="249" width="759" height="574" key="find.popup/71.23.1609.1027@71.23.1609.1027" timestamp="1601039514194" />
   </component>
   <component name="XDebuggerManager">
@@ -818,6 +815,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Spacex$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601428974544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spacex$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601457257776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -19,8 +19,16 @@ class UserView(LoginRequiredMixin, ListView):
     @staticmethod
     def post(request):
         uid = request.POST.get("id", "")
-        user_id = uid.split(",")
-        Users.objects.filter(id__in=user_id).delete()
+        action = request.POST.get("action", "")
+
+        if action == "each":
+            Users.objects.filter(id=uid).delete()
+        elif action == "batch":
+            user_id = uid.split(",")
+            Users.objects.filter(id__in=user_id).delete()
+        else:
+            data = {"status": 403, "msg": "方式错误"}
+            return JsonResponse(data, safe=False)
 
         data = {"status": 200, "msg": "用户删除成功"}
         return JsonResponse(data, safe=False)

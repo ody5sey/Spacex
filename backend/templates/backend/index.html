@@ -69,7 +69,7 @@
                                data-icon="fa fa-gears">基本资料<span class="layui-badge-dot"></span></a>
                         </dd>
                         <dd>
-                            <a href="javascript:;" layuimini-content-href="page/user-password.html" data-title="修改密码"
+                            <a href="javascript:;" layuimini-content-href="{% url 'change' %}" data-title="修改密码"
                                data-icon="fa fa-gears">修改密码</a>
                         </dd>
                         <dd>
@@ -141,7 +141,7 @@
             miniTongji = layui.miniTongji;
 
         const options = {
-            iniUrl: "/back/index_api",    // 初始化接口
+            iniUrl: '{% url "api_index" %}',    // 初始化接口
             clearUrl: "api/clear.json", // 缓存清理接口
             urlHashLocation: true,      // 是否打开hash定位
             bgColorDefault: 3,      // 主题默认配置
@@ -155,9 +155,23 @@
 
 
         $('.login-out').on("click", function () {
-            layer.msg('退出登录成功', function () {
-                window.location = 'page/login-3.html';
+
+            $.ajax({
+                url: "{% url 'logout' %}",
+                type: 'get',
+                dataType: 'json',
+                success: function (data) {
+                    if (data.status === 200) {
+                        layer.msg('退出登录成功', function () {
+                            window.location = '{% url "index" %}';
+                        });
+                    } else {
+                        alert(data.msg);
+                    }
+                }
             });
+
+
         });
     });
 </script>
