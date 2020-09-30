@@ -7,8 +7,8 @@ from librarys.mixin.permission import LoginRequiredMixin
 from backend.models.users import Users
 
 
-class WelcomeView(LoginRequiredMixin, View):
-    template_name = "backend/page/welcome.html"
+class TableView(LoginRequiredMixin, View):
+    template_name = "backend/page/table.html"
 
     @method_decorator(xframe_options_exempt)
     def get(self, request):

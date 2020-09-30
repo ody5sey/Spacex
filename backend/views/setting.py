@@ -4,12 +4,12 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.clickjacking import xframe_options_exempt
 
 from librarys.mixin.permission import LoginRequiredMixin
-from backend.models.users import AdminUser
+from backend.models.users import Users
 
 
 class SettingMenu(LoginRequiredMixin, View):
-    index_templates = "backend/page/setting.html"
+    template_name = "backend/page/setting.html"
 
     @method_decorator(xframe_options_exempt)
     def get(self, request):
-        return render(request, self.index_templates)
+        return render(request, self.template_name)

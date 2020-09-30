@@ -7,10 +7,10 @@ from django.http import JsonResponse
 
 
 class LoginView(View):
+    template_name = "backend/login.html"
 
-    @staticmethod
-    def get(request):
-        return render(request, "backend/login.html")
+    def get(self, request):
+        return render(request, self.template_name)
 
     @staticmethod
     def post(request):

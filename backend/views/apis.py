@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from django.shortcuts import reverse
 
 from librarys.mixin.permission import LoginRequiredMixin
+from backend.models.users import Users
 
 
 class IndexAPIView(LoginRequiredMixin, View):
@@ -14,16 +15,16 @@ class IndexAPIView(LoginRequiredMixin, View):
                   'menuInfo': [
                       {'title': '常规管理', 'icon': 'fa fa-address-book', 'href': '', 'target': '_self', 'child': [
                           {'title': '主页模板', 'href': '', 'icon': 'fa fa-home', 'target': '_self', 'child': [
-                              {'title': '主页一', 'href': reverse("welcome"), 'icon': 'fa fa-tachometer',
+                              {'title': '欢迎', 'href': reverse("welcome"), 'icon': 'fa fa-tachometer',
                                'target': '_self'},
-                              {'title': '主页二', 'href': 'page/welcome-2.html', 'icon': 'fa fa-tachometer',
+                              {'title': '用户管理', 'href': reverse('user'), 'icon': 'fa fa-tachometer',
                                'target': '_self'},
                               {'title': '主页三', 'href': 'page/welcome-3.html', 'icon': 'fa fa-tachometer',
                                'target': '_self'}]},
                           {'title': '菜单管理', 'href': reverse("menu"), 'icon': 'fa fa-window-maximize',
                            'target': '_self'},
                           {'title': '系统设置', 'href': reverse("setting"), 'icon': 'fa fa-gears', 'target': '_self'},
-                          {'title': '表格示例', 'href': 'page/table.html', 'icon': 'fa fa-file-text', 'target': '_self'},
+                          {'title': '表格示例', 'href': reverse("table"), 'icon': 'fa fa-file-text', 'target': '_self'},
                           {'title': '表单示例', 'href': '', 'icon': 'fa fa-calendar', 'target': '_self',
                            'child': [
                                {'title': '普通表单', 'href': 'page/form.html', 'icon': 'fa fa-list-alt', 'target': '_self'},
@@ -72,6 +73,7 @@ class IndexAPIView(LoginRequiredMixin, View):
 
 
 class MenuApiView(LoginRequiredMixin, View):
+
     @staticmethod
     def get(request):
         menu = {'code': 0, 'msg': '', 'count': 19, 'data': [
@@ -134,3 +136,32 @@ class MenuApiView(LoginRequiredMixin, View):
              'updateTime': '2018/07/21 13:56:43', 'isMenu': 1, 'parentId': 18}]}
 
         return JsonResponse(menu)
+
+
+class UserApiView(LoginRequiredMixin, View):
+
+    @staticmethod
+    def get(request):
+        # 从前端获取当前的页码数,默认为1
+        page = request.GET.get('page', 1)
+        count = request.GET.get('limit', 10)
+
+        # 把当前的页码数转换成整数类型
+        currentPage = int(page)
+        countList = int(count)
+        user_list = Users.objects.all()
+        paginator_user = user_list[(currentPage - 1) * countList:currentPage * countList]
+
+        new_list = list()
+
+        for i, v in enumerate(paginator_user):
+            new_dict = {'id': i + 1 + ((currentPage - 1) * countList), 'username': v.username, 'sex': v.sex,
+                        'super': v.is_superuser,
+                        'create': v.create_date.strftime('%Y-%m-%d %H:%M:%S'),
+                        'experience': 255,
+                        'logins': 24, 'wealth': 82830700, 'classify': '作家', 'score': 57, "uid": v.id}
+            new_list.append(new_dict)
+
+        user = {'code': 0, 'msg': '', 'count': user_list.count(), 'data': new_list}
+
+        return JsonResponse(user)
